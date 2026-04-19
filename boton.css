@@ -1,0 +1,29 @@
+/*pantalla*/
+body {
+  background-image: url('./imagenes/mercy.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+}
+/*boton*/
+button{
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 10px;
+  background-color:  #852643;
+  box-shadow: 0px  20px  #c9b590;
+  color: #c9b590;
+}
+
+button:hover{
+  box-shadow: 0px 10px #852643;
+  transform: translateY(10px);
+  cursor: pointer;
+}
+h1{
+    color: #ffffff; /* Color hexadecimal */
+  }

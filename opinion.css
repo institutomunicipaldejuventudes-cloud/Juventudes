@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.chat-container {
+  width: 300px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.chat-box {
+  height: 300px;
+  padding: 10px;
+  overflow-y: auto;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 5px;
+  max-width: 80%;
+}
+
+.user {
+  background: #007bff;
+  color: white;
+  align-self: flex-end;
+}
+
+.bot {
+  background: #e4e6eb;
+  color: black;
+  align-self: flex-start;
+}
+
+.input-area {
+  display: flex;
+}
+
+input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  outline: none;
+}
+
+button {
+  border: none;
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+/*pantalla*/
+body {
+  background-image: url('./imagenes/mercy.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+}
+/*boton*/
+button{
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 10px;
+  background-color:  #852643;
+  box-shadow: 0px  20px  #c9b590;
+  color: #c9b590;
+}
+
+button:hover{
+  box-shadow: 0px 10px #852643;
+  transform: translateY(10px);
+  cursor: pointer;
+}
+h1{
+    color: #ffffff; /* Color hexadecimal */
+  }

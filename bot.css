@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #852643;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.chat-container {
+  width: 350px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.chat-header {
+  background: #852643;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.chat-box {
+  height: 400px;
+  overflow-y: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  padding: 8px 12px;
+  margin: 5px 0;
+  border-radius: 10px;
+  max-width: 80%;
+}
+
+.bot {
+  background: #c9b590;
+  align-self: flex-start;
+}
+
+.user {
+  background: #c9b590;
+  color: white;
+  align-self: flex-end;
+}
+
+.chat-input {
+  display: flex;
+  border-top: 1px solid #ddd;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.chat-input button {
+  padding: 10px;
+  border: none;
+  background: #c9b590;
+  color: white;
+  cursor: pointer;
+}
+/*pantalla*/
+body {
+  background-image: url('./imagenes/mercy.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  margin: 0;
+}
+/*boton*/
+button{
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 10px;
+  background-color:  #852643;
+  box-shadow: 0px  20px  #c9b590;
+  color: #c9b590;
+}
+
+button:hover{
+  box-shadow: 0px 10px #852643;
+  transform: translateY(10px);
+  cursor: pointer;
+}
+h1{
+    color: #ffffff; /* Color hexadecimal */
+  }
